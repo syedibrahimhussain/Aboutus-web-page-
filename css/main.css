@@ -1,0 +1,87 @@
+@import url(normalize.css);
+@import url(../fonts/!fonts.css);
+.wrapper {
+  height: 100%;
+  width: 100%;
+   background: #fff;
+   }
+.maincontent{
+  margin-top: 5%;
+}   
+
+.section {
+  margin-top: 8%;
+  height: 100vh;
+  width: 100%;
+   }
+
+.about__block {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .about__block .about {
+    position: relative;
+    border: 5px solid #3c3c3c;
+    width: 50%;
+    min-height: 300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .about__block .about .about__text {
+      font-family: 'Lato-Light';
+      color: #000;
+      font-size: 16px;
+    
+      width: 50%;
+      margin: 50px 100px  ;
+      line-height: 1.6; 
+        }
+    .about__block .about .about__title {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 0;
+      left: 50%;
+      text-transform: uppercase;
+      background: #ffff;
+      padding: 3% 10%;
+      
+      font-size: 34px; }
+.black {
+  border: 5px solid #fff !important; }
+  .black .about__text {
+    font-family: 'Lato-Light';
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    width: 50%;
+    margin: 50px 0;
+    line-height: 1.6;
+    color: #fff !important; }
+  .black .about__title {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 0;
+    left: 50%;
+    text-transform: uppercase;
+    background: #fff;
+    padding: 3% 10%;
+    text-align: center;
+    font-size: 34px;
+    color: #fff;
+    background: #000 !important; }
+      
+ 
+.footer__button {
+  padding: 3% 20%;
+  background: #3c3c3c;
+  margin-bottom: 50px;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Lato-Light'; 
+  font-size: 6px;
+  color: #000; 
+}
+
